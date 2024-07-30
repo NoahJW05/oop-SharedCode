@@ -26,8 +26,8 @@ int transform(int number)
 }
 
 int main(){
-    int number;
-    std::cin >> number;
-    transform(number);
+    int number_input;
+    std::cin >> number_input;
+    transform(number_input);
     return 0;
 }
