@@ -1,10 +1,10 @@
 #include <iostream>
-int binary()
+int transform(int number)
 {
     int array[100] = {};
     int number;
     int i = 0;
-    std::cin >> number;
+    
     while(number != 0){
         if (number % 2==0){
         array[i] = 0;
@@ -22,5 +22,12 @@ int binary()
         std::cout<<array[j];
     }
     std::cout<<std::endl;
+    return 0;
+}
+
+int main(){
+    int number;
+    std::cin >> number;
+    transform(number);
     return 0;
 }
