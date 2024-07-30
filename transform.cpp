@@ -2,7 +2,6 @@
 int transform(int number)
 {
     int array[100] = {};
-    int number;
     int i = 0;
     
     while(number != 0){
